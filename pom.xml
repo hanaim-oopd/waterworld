@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.han.ica.oopd</groupId>
+    <artifactId>waterworld</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>waterworld</name>
+    <url>https://github.com/HANICA/waterworld</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>processing</groupId>
+            <artifactId>gifanimation</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/gifanimation/1.0/gifanimation-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>minim</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/minim/1.0/minim-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>jsminim</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/jsminim/1.0/jsminim-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>tritonus_aos</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/tritonus_aos/1.9.4/tritonus_aos-1.9.4.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>tritonus_share</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/tritonus_share/1.0/tritonus_share-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>mp3spi</artifactId>
+            <version>1.9.4</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/mp3spi/1.9.4/mp3spi-1.9.4.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>processing.sound</groupId>
+            <artifactId>jl</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/processing/sound/jl/1.0/jl-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>nl.han.ica.oopd</groupId>
+            <artifactId>oopg</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/oopg-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
