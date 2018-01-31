@@ -18,13 +18,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>processing</groupId>
-            <artifactId>gifanimation</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/processing/gifanimation/1.0/gifanimation-1.0.jar</systemPath>
-        </dependency>
-        <dependency>
             <groupId>nl.han.ica.oopd</groupId>
             <artifactId>oopg</artifactId>
             <version>1.0-SNAPSHOT</version>
