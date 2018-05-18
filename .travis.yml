@@ -5,11 +5,11 @@ jdk:
 after_success:
   - mvn clean
   - mvn eclipse:eclipse
-  - zip waterworld
+  - zip -r waterworld .
 
 deploy:
     provider: pages
-    local-dir: .
+    local-dir: waterworld.zip
     skip-cleanup: true
     github-token: $GITHUB_TOKEN
     keep-history: false
