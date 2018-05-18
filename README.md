@@ -19,3 +19,5 @@ Voor het werken met OOPG is verder meer informatie beschikbaar.
 * De volledige Javadoc van OOPG: [Javadoc](http://hanica.github.io/oopg/) 
 
 ## Downloaden van dit project
+
+Dit project is als zip beschibaar op: [waterworld.zip](http://hanica.github.io/waterworld/) 
