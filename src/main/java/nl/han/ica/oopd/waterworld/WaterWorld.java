@@ -1,23 +1,21 @@
 package nl.han.ica.oopd.waterworld;
 
-
-import nl.han.ica.oopd.oopg.dashboard.Dashboard;
-import nl.han.ica.oopd.oopg.engine.GameEngine;
-import nl.han.ica.oopd.oopg.objects.Sprite;
-import nl.han.ica.oopd.oopg.persistence.FilePersistence;
-import nl.han.ica.oopd.oopg.persistence.IPersistence;
-import nl.han.ica.oopd.oopg.sound.Sound;
-import nl.han.ica.oopd.oopg.tile.TileMap;
-import nl.han.ica.oopd.oopg.tile.TileType;
-import nl.han.ica.oopd.oopg.view.EdgeFollowingViewport;
-import nl.han.ica.oopd.oopg.view.View;
 import nl.han.ica.oopd.waterworld.tiles.BoardsTile;
+import nl.han.ica.oopdprocessingenginehan.dashboard.Dashboard;
+import nl.han.ica.oopdprocessingenginehan.engine.GameEngine;
+import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
+import nl.han.ica.oopdprocessingenginehan.persistence.FilePersistence;
+import nl.han.ica.oopdprocessingenginehan.persistence.IPersistence;
+import nl.han.ica.oopdprocessingenginehan.sound.Sound;
+import nl.han.ica.oopdprocessingenginehan.tile.TileMap;
+import nl.han.ica.oopdprocessingenginehan.tile.TileType;
+import nl.han.ica.oopdprocessingenginehan.view.EdgeFollowingViewport;
+import nl.han.ica.oopdprocessingenginehan.view.View;
 import processing.core.PApplet;
 
 /**
  * @author Ralph Niels
  */
-@SuppressWarnings("serial")
 public class WaterWorld extends GameEngine {
 
     private Sound backgroundSound;
@@ -30,7 +28,10 @@ public class WaterWorld extends GameEngine {
 
 
     public static void main(String[] args) {
-        PApplet.main(new String[]{"nl.han.ica.oopd.waterworld.WaterWorld"});
+        String[] processingArgs = {"nl.han.ica.oopd.waterworld.WaterWorld"};
+        WaterWorld mySketch = new WaterWorld();
+
+        PApplet.runSketch(processingArgs, mySketch);
     }
 
     /**
@@ -52,8 +53,6 @@ public class WaterWorld extends GameEngine {
         createBubbleSpawner();
 
         createViewWithoutViewport(worldWidth, worldHeight);
-        //createViewWithViewport(worldWidth, worldHeight, 800, 800, 1.1f);
-
     }
 
     /**

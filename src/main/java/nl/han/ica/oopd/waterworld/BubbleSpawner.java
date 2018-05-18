@@ -1,8 +1,8 @@
 package nl.han.ica.oopd.waterworld;
 
-import nl.han.ica.oopd.oopg.alarm.Alarm;
-import nl.han.ica.oopd.oopg.alarm.IAlarmListener;
-import nl.han.ica.oopd.oopg.sound.Sound;
+import nl.han.ica.oopdprocessingenginehan.alarm.Alarm;
+import nl.han.ica.oopdprocessingenginehan.alarm.IAlarmListener;
+import nl.han.ica.oopdprocessingenginehan.sound.Sound;
 
 import java.util.Random;
 
@@ -43,7 +43,7 @@ public class BubbleSpawner implements IAlarmListener {
     public void triggerAlarm(String alarmName) {
         int bubbleSize = random.nextInt(10) + 10;
         Bubble b = new Bubble(bubbleSize, world, popSound);
-        world.addGameObject(b, random.nextInt(world.getWidth()), world.getHeight());
+        world.addGameObject(b, random.nextInt(world.width), world.height);
         startAlarm();
     }
 

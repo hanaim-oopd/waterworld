@@ -1,7 +1,7 @@
 package nl.han.ica.oopd.waterworld;
 
-import nl.han.ica.oopd.oopg.objects.Sprite;
-import nl.han.ica.oopd.oopg.objects.SpriteObject;
+import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
+import nl.han.ica.oopdprocessingenginehan.objects.SpriteObject;
 
 /**
  * @author Ralph Niels
@@ -35,7 +35,7 @@ public class Swordfish extends SpriteObject {
     @Override
     public void update() {
         if (getX() + getWidth() <= 0) {
-            setX(world.getWidth());
+            setX(world.width);
         }
 
     }

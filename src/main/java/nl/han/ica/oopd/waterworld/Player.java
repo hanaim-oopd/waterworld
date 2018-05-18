@@ -1,11 +1,12 @@
 package nl.han.ica.oopd.waterworld;
 
-import nl.han.ica.oopd.oopg.collision.CollidedTile;
-import nl.han.ica.oopd.oopg.collision.ICollidableWithTiles;
-import nl.han.ica.oopd.oopg.exceptions.TileNotFoundException;
-import nl.han.ica.oopd.oopg.objects.AnimatedSpriteObject;
-import nl.han.ica.oopd.oopg.objects.Sprite;
 import nl.han.ica.oopd.waterworld.tiles.BoardsTile;
+import nl.han.ica.oopdprocessingenginehan.collision.CollidedTile;
+import nl.han.ica.oopdprocessingenginehan.collision.CollisionSide;
+import nl.han.ica.oopdprocessingenginehan.collision.ICollidableWithTiles;
+import nl.han.ica.oopdprocessingenginehan.exceptions.TileNotFoundException;
+import nl.han.ica.oopdprocessingenginehan.objects.AnimatedSpriteObject;
+import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
 import processing.core.PVector;
 
 import java.util.List;
@@ -41,13 +42,13 @@ public class Player extends AnimatedSpriteObject implements ICollidableWithTiles
             setySpeed(0);
             setY(0);
         }
-        if (getX() >= world.getWidth() - size) {
+        if (getX() >= world.width - size) {
             setxSpeed(0);
-            setX(world.getWidth() - size);
+            setX(world.width - size);
         }
-        if (getY() >= world.getHeight() - size) {
+        if (getY() >= world.height - size) {
             setySpeed(0);
-            setY(world.getHeight() - size);
+            setY(world.height - size);
         }
 
     }
@@ -80,18 +81,18 @@ public class Player extends AnimatedSpriteObject implements ICollidableWithTiles
         PVector vector;
 
         for (CollidedTile ct : collidedTiles) {
-            if (ct.theTile instanceof BoardsTile) {
-                if (ct.collisionSide == ct.TOP) {
+            if (ct.getTile() instanceof BoardsTile) {
+                if (CollisionSide.TOP.equals(ct.getCollisionSide())) {
                     try {
-                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
+                        vector = world.getTileMap().getTilePixelLocation(ct.getTile());
                         setY(vector.y - getHeight());
                     } catch (TileNotFoundException e) {
                         e.printStackTrace();
                     }
                 }
-                if (ct.collisionSide == ct.RIGHT) {
+                if (CollisionSide.RIGHT.equals(ct.getCollisionSide())) {
                     try {
-                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
+                        vector = world.getTileMap().getTilePixelLocation(ct.getTile());
                         world.getTileMap().setTile((int) vector.x / 50, (int) vector.y / 50, -1);
                     } catch (TileNotFoundException e) {
                         e.printStackTrace();

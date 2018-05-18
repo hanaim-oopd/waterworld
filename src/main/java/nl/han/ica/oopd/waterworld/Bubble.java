@@ -1,8 +1,8 @@
 package nl.han.ica.oopd.waterworld;
 
-import nl.han.ica.oopd.oopg.collision.ICollidableWithGameObjects;
-import nl.han.ica.oopd.oopg.objects.GameObject;
-import nl.han.ica.oopd.oopg.sound.Sound;
+import nl.han.ica.oopdprocessingenginehan.collision.ICollidableWithGameObjects;
+import nl.han.ica.oopdprocessingenginehan.objects.GameObject;
+import nl.han.ica.oopdprocessingenginehan.sound.Sound;
 import processing.core.PGraphics;
 
 import java.util.List;
