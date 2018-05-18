@@ -20,4 +20,4 @@ Voor het werken met OOPG is verder meer informatie beschikbaar.
 
 ## Downloaden van dit project
 
-Dit project is als zip beschibaar op: [waterworld.zip](http://hanica.github.io/waterworld/) 
+Dit project is als zip beschibaar op: [waterworld.zip](http://hanica.github.io/waterworld/waterworld.zip) 
