@@ -20,25 +20,15 @@ Voor het werken met OOPG is verder meer informatie beschikbaar.
 
 ## Aan de slag
 
-### Downloaden van dit project
+Dit project is beschikbaar als zip: [waterworld.zip](http://hanica.github.io/waterworld/waterworld.zip) 
 
-Dit project is als zip beschibaar: [waterworld.zip](http://hanica.github.io/waterworld/waterworld.zip) 
+Download deze zip en pak hem uit op de plek waar je je project wilt hebben staan. Je hebt nu een project
+dat in zowel Eclipse als IntelliJ te importeren is.
 
 ### Eclipse
-Wanneer je de zip hebt uitgepakt, heb je een map genaamd ```waterworld```. Deze map bevat een volledig en startklaar
-Eclipse project.
-
-#### Importeer het project
-
-Kies menu `File` -> `Import...` en dan `Existing Projects into Workspace`
-<img width="500" alt="Importeer game in Eclipse" src="https://user-images.githubusercontent.com/3029472/40170032-c4b53f40-59c7-11e8-853e-382ea1d9549d.png">
-
-In de `Import project...` dialoog blader naar de folder aangemaakt bij stap 1
-<img width="500" alt="Project import dialoog" src="https://user-images.githubusercontent.com/3029472/40170031-c49d996c-59c7-11e8-922c-4e4c0ccf9815.png">
+Kies menu `File` -> `Import...` en dan `Existing Projects into Workspace` en selecteer vervolgens de waterworld map.
 
 #### Run de voorbeeld game
-Blader in het in stap 2 geimporteerde project in Eclipse naar WaterWorld.java, rechtsklik en selecteer `Run as` -> `Java Application`.
-
-<img width="500" alt="Voorbeeld game, Run as Java Application" src="https://user-images.githubusercontent.com/3029472/40170444-c5e53f7c-59c8-11e8-82cc-cdc5c4495608.png">
+Blader in het geimporteerde project in Eclipse naar WaterWorld.java, rechtsklik en selecteer `Run as` -> `Java Application`.
 
 ### IntelliJ
