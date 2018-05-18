@@ -1,4 +1,4 @@
-# Waterworld - OOPG Demo
+# Waterworld - OOPG Demo [![Build Status](https://travis-ci.org/HANICA/waterworld.svg?branch=master)](https://travis-ci.org/HANICA/waterworld)
 
 In deze repository staat een demo, gebaseerd op de OOPD Processing Game Engine. Het kan als 
 startpunt dienen bij het maken van het beroepsproduct voor OOPD.
