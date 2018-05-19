@@ -25,6 +25,10 @@ Dit project is beschikbaar als zip: [waterworld.zip](http://hanica.github.io/wat
 Download deze zip en pak hem uit op de plek waar je je project wilt hebben staan. Je hebt nu een project
 dat in zowel Eclipse als IntelliJ te importeren is.
 
+## JDK
+Momenteel is OOPG niet bruikbaar met JDK versies later dan 1.8. Zorg er dus voor dat in je IDE gebruik wordt gemaakt van
+een JDK1.8 of ouder.
+
 ### Eclipse
 Kies menu `File` -> `Import...` en dan `Existing Projects into Workspace` en selecteer vervolgens de waterworld map.
 
@@ -32,3 +36,7 @@ Kies menu `File` -> `Import...` en dan `Existing Projects into Workspace` en sel
 Blader in het geimporteerde project in Eclipse naar WaterWorld.java, rechtsklik en selecteer `Run as` -> `Java Application`.
 
 ### IntelliJ
+Kies menu `Open...` en selecteer vervolgens de waterworld map.
+
+#### Run de voorbeeld game
+Blader in het geimporteerde project in IntelliJ naar WaterWorld.java, rechtsklik en selecteer `Run WaterWorld.main()`.
