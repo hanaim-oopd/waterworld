@@ -1,15 +1,16 @@
 package nl.han.ica.oopd.waterworld;
 
 import nl.han.ica.oopd.waterworld.tiles.BoardsTile;
-import nl.han.ica.oopdprocessingenginehan.collision.CollidedTile;
-import nl.han.ica.oopdprocessingenginehan.collision.CollisionSide;
-import nl.han.ica.oopdprocessingenginehan.collision.ICollidableWithTiles;
-import nl.han.ica.oopdprocessingenginehan.exceptions.TileNotFoundException;
-import nl.han.ica.oopdprocessingenginehan.objects.AnimatedSpriteObject;
-import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
+import nl.han.ica.oopg.collision.CollidedTile;
+import nl.han.ica.oopg.collision.CollisionSide;
+import nl.han.ica.oopg.collision.ICollidableWithTiles;
+import nl.han.ica.oopg.exceptions.TileNotFoundException;
+import nl.han.ica.oopg.objects.AnimatedSpriteObject;
+import nl.han.ica.oopg.objects.Sprite;
 import processing.core.PVector;
 
 import java.util.List;
+
 
 /**
  * @author Ralph Niels

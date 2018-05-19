@@ -1,17 +1,19 @@
 package nl.han.ica.oopd.waterworld;
 
 import nl.han.ica.oopd.waterworld.tiles.BoardsTile;
-import nl.han.ica.oopdprocessingenginehan.dashboard.Dashboard;
-import nl.han.ica.oopdprocessingenginehan.engine.GameEngine;
-import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
-import nl.han.ica.oopdprocessingenginehan.persistence.FilePersistence;
-import nl.han.ica.oopdprocessingenginehan.persistence.IPersistence;
-import nl.han.ica.oopdprocessingenginehan.sound.Sound;
-import nl.han.ica.oopdprocessingenginehan.tile.TileMap;
-import nl.han.ica.oopdprocessingenginehan.tile.TileType;
-import nl.han.ica.oopdprocessingenginehan.view.EdgeFollowingViewport;
-import nl.han.ica.oopdprocessingenginehan.view.View;
+import nl.han.ica.oopg.dashboard.Dashboard;
+import nl.han.ica.oopg.engine.GameEngine;
+import nl.han.ica.oopg.objects.Sprite;
+import nl.han.ica.oopg.persistence.FilePersistence;
+import nl.han.ica.oopg.persistence.IPersistence;
+import nl.han.ica.oopg.sound.Sound;
+import nl.han.ica.oopg.tile.TileMap;
+import nl.han.ica.oopg.tile.TileType;
+import nl.han.ica.oopg.view.EdgeFollowingViewport;
+import nl.han.ica.oopg.view.View;
 import processing.core.PApplet;
+
+
 
 /**
  * @author Ralph Niels

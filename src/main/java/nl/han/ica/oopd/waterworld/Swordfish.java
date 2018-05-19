@@ -1,7 +1,7 @@
 package nl.han.ica.oopd.waterworld;
 
-import nl.han.ica.oopdprocessingenginehan.objects.Sprite;
-import nl.han.ica.oopdprocessingenginehan.objects.SpriteObject;
+import nl.han.ica.oopg.objects.Sprite;
+import nl.han.ica.oopg.objects.SpriteObject;
 
 /**
  * @author Ralph Niels
