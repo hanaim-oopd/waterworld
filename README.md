@@ -14,7 +14,7 @@ worden om in te zien hoe de functionaliteit van de engine moet worden aangesprok
 
 Voor het werken met OOPG is verder meer informatie beschikbaar.
 
-* De broncode van OOPG:   [Bronode](https://github.com/HANICA/oopg) 
+* De broncode van OOPG:   [Broncode](https://github.com/HANICA/oopg) 
 * De Wiki van OOPG: [Wiki](https://github.com/HANICA/oopg/wiki)
 * De volledige Javadoc van OOPG: [Javadoc](http://hanica.github.io/oopg/) 
 
