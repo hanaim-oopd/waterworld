@@ -20,7 +20,7 @@ Voor het werken met OOPG is verder meer informatie beschikbaar.
 
 ## Aan de slag
 
-Dit project is beschikbaar als zip: [waterworld.zip](http://hanica.github.io/waterworld/waterworld.zip) 
+Dit project is beschikbaar als zip: [waterworld.zip](https://github.com/HANICA/waterworld/archive/master.zip) 
 
 Download deze zip en pak hem uit op de plek waar je je project wilt hebben staan. Je hebt nu een project
 dat in zowel Eclipse als IntelliJ te importeren is.
