@@ -39,4 +39,4 @@ Blader in het geimporteerde project in Eclipse naar WaterWorld.java, rechtsklik 
 Kies menu `Open...` en selecteer vervolgens de waterworld map.
 
 #### Run de voorbeeld game
-Blader in het geimporteerde project in IntelliJ naar WaterWorld.java, rechtsklik en selecteer `Run WaterWorld.main()`.
+Blader in het geimporteerde project in IntelliJ naar `WaterWorld.java`, rechtsklik en selecteer `Run WaterWorld.main()`.
