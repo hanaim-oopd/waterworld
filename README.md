@@ -30,7 +30,7 @@ Momenteel is OOPG niet bruikbaar met JDK versies later dan 1.8. Zorg er dus voor
 een JDK1.8 of ouder.
 
 ### Eclipse
-Kies menu `File` -> `Import...` en dan `Existing Projects into Workspace` en selecteer vervolgens de waterworld map.
+Kies menu `File` -> `Import...` en dan Maven -> `Existing Maven Projects` en selecteer vervolgens de map waar de waterworld map staat (bijvoorbeeld je download folder).
 
 #### Run de voorbeeld game
 Blader in het geimporteerde project in Eclipse naar WaterWorld.java, rechtsklik en selecteer `Run as` -> `Java Application`.
