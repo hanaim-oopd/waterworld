@@ -93,7 +93,7 @@ public class WaterWorld extends GameEngine {
      * Initialiseert geluid
      */
     private void initializeSound() {
-        backgroundSound = new Sound(this, "src/main/java/nl/han/ica/oopd/waterworld/media/Waterworld.mp3");
+        backgroundSound = new Sound(this, "src/main/java/nl/han/ica/oopd/waterworld/media/waterworld.mp3");
         backgroundSound.loop(-1);
         bubblePopSound = new Sound(this, "src/main/java/nl/han/ica/oopd/waterworld/media/pop.mp3");
     }
@@ -147,7 +147,7 @@ public class WaterWorld extends GameEngine {
      */
     private void initializeTileMap() {
         /* TILES */
-        Sprite boardsSprite = new Sprite("src/main/java/nl/han/ica/oopd/waterworld/media/boards.jpg");
+        Sprite boardsSprite = new Sprite("src/main/java/nl/han/ica/oopd/waterworld/media/boards-tile.jpg");
         TileType<BoardsTile> boardTileType = new TileType<>(BoardsTile.class, boardsSprite);
 
         TileType[] tileTypes = {boardTileType};
