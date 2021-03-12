@@ -27,7 +27,7 @@ dat in zowel Eclipse als IntelliJ te importeren is.
 
 ## JDK
 Momenteel is OOPG niet bruikbaar met JDK versies later dan 1.8. Zorg er dus voor dat in je IDE gebruik wordt gemaakt van
-een JDK1.8 of ouder.
+een JDK1.8 of een compatibility met 1.8.
 
 ### Eclipse
 Kies menu `File` -> `Import...` en dan Maven -> `Existing Maven Projects` en selecteer vervolgens de map waar de waterworld map staat (bijvoorbeeld je download folder).
