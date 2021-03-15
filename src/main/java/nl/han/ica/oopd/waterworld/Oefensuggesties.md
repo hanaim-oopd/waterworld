@@ -14,11 +14,12 @@ Oefening 5 is al een redelijke samenhangende set van functionaliteiten zodat Wat
    - II. Voor elke keer dat hij een zwaardvis raakt, raakt hij punten kwijt;
    - III. Uiteraard moet ook de score in beeld zijn (in plaats van het aantal geknapte bellen)
    - IV. En wordt de hiscore opgeslagen (in plaats van het aantal geklapte bellen).
+   Tip: Gebruik voor puntentellen af en bij bij collision polymorfe methode (refactor van evt. eerder `if` `else` logica en `instanceof` checks)
 
 # Verdere oefensuggesties
 Dit is een set van verdere oefeningen. Enkele hulp media bestanden die je soms nodig hebt vind je al toegevoegd in de `resources` folder.
-- [ ] A. Maak een nieuw tiletype ‘WeedTile’, waar de vis 2x zo langzaam zwemt als normaal (vis kan er van alle kanten doorheen)
-- [ ] B. Maak een nieuw tiletype ‘HyperSpeedTile’, wat in principe een muntje is, die de vis kan oppakken waarna zijn snelheid verder verdubbelt is (deze til moet je dus van alle kanten kunnen oppakken).
+- [ ] A. Maak een nieuw tiletype `WeedTile`, waar de vis 2x zo langzaam zwemt als normaal (vis kan er van alle kanten doorheen)
+- [ ] B. Maak een nieuw tiletype `HyperSpeedTile`, wat in principe een muntje is, die de vis kan oppakken waarna zijn snelheid verder verdubbelt is (deze tile moet je dus van alle kanten kunnen oppakken).
 - [ ] C. Maak een teller in het scherm die aftelt (gebruik een alarm), als de tijd op is verdwijnt de vis en toont Dashboard “Game Over!” (gebruik een Alarm uit OOPG, die elke seconde een trigger stuurt (kijk naar code van BubbleSpawner hoe je herhaalt Alarm (IAlarmListerner) kunt af laten gaan, door bij aanroep alarm weer nieuwe te aan te maken 😊)
 - [ ] D. Zorg dat na een minuut een versnelde versie van de muziek afspeelt (Je kunt de ‘waterworld.mp3’ converteren via bv. online versnellingstool of Audicity)
 - [ ] E. Gebruik een image editor om naast een ‘links’ en ‘rechts’ variant van de vis ook een 'naar beneden' en 'omhoog' variant te maken, en zorg dat de vis ook die kant uitkijkt als de gebruiker hem daar heen stuurt.
@@ -27,4 +28,4 @@ Dit is een set van verdere oefeningen. Enkele hulp media bestanden die je soms n
 - [ ] H. Zorg dat de zwaardvis tot stilstand komt als de vis ertegen aan botst
 - [ ] I. Zorg dat je met de projectielen de zwaardvis kunt neerschieten
 - [ ] J. Zorg dat de zwaardvis naar de bodem van het scherm stort als deze dood gaat (maak hiervoor ook opgave I, of als je die niet doet, laat de zwaardvis dan simpelweg doodgaan als je op spatie drukt zonder projectielen)
-- [ ] K. Zorg dat de zwaardvis ook de tiles opeet als hij er doorheen zwemt (zet de zwaardvis bij begin van het spel op de rij met de tiles om te testen)
+- [ ] K. Zorg dat de zwaardvis ook de tiles opeet als hij er doorheen zwemt (zet de zwaardvis bij begin van het spel op de rij met de tiles om te testen) (tip: gebruik gedeelde abstracte interface of klasse `TileEater` voor Zwaardvis en (player) vis i.p.v. duplicatie van code en meerdere if else checks).
